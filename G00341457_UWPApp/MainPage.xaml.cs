@@ -26,5 +26,12 @@ namespace G00341457_UWPApp
         {
             this.InitializeComponent();
         }
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+           RootObject myWeather = await OpenWeatherMapProxy.GetWeather(20.0, 25.1);
+
+            ResultTextBlock.Text = myWeather.name + " - " + ((int)myWeather.main.temp).ToString() + " - " + myWeather.weather[0].description;
+        }
     }
 }
