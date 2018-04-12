@@ -25,7 +25,8 @@ namespace G00341457_UWPApp
             return Data;
         }
     }
-    
+
+    //used http://json2csharp.com/# to generate getters and setters 
     [DataContract]
     public class Coord
     {
