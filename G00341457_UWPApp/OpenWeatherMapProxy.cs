@@ -15,7 +15,8 @@ namespace G00341457_UWPApp
         public async static Task<RootObject> GetWeather(double lon, double lat)
         {
             var http = new HttpClient();
-            var response = await http.GetAsync("http://samples.openweathermap.org/data/2.5/weather?id=2172797&appid=b6907d289e10d714a6e88b30761fae22");
+            //Tried to get geolocation to work but could not so just added a place holder for now
+            var response = await http.GetAsync("http://api.openweathermap.org/data/2.5/weather?lat=53&lon=9&AppId=f4b5a711ff678b95508524ba46c02c3b");
             var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(RootObject));
 
