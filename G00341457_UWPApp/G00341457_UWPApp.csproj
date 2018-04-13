@@ -95,14 +95,44 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Dog.xaml.cs">
+      <DependentUpon>Dog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dragon.xaml.cs">
+      <DependentUpon>Dragon.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Goat.xaml.cs">
+      <DependentUpon>Goat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="horse.xaml.cs">
+      <DependentUpon>horse.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LocationManager.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="OpenWeatherMapProxy.cs" />
+    <Compile Include="Ox.xaml.cs">
+      <DependentUpon>Ox.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pig.xaml.cs">
+      <DependentUpon>Pig.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rabbit.xaml.cs">
+      <DependentUpon>Rabbit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Rat.xaml.cs">
       <DependentUpon>Rat.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Rooster.xaml.cs">
+      <DependentUpon>Rooster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Snake.xaml.cs">
+      <DependentUpon>Snake.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="tiger.xaml.cs">
+      <DependentUpon>tiger.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -112,6 +142,7 @@
     <None Include="G00341457_UWPApp_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Animals\Zodiac.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -126,11 +157,51 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Dog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dragon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Goat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="horse.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Ox.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pig.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rabbit.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Rat.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Rooster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Snake.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="tiger.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

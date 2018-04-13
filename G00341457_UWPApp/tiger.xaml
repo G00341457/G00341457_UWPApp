@@ -7,7 +7,26 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Tiger" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+                People born in the year of the Tiger are brave, competitive, unpredictable, and self-confident. They are very charming and well-liked by others. But sometimes they are likely to be impetuous, irritable, and overindulged.
+                With stubborn personalities and tough judgment, tigers work actively and boldly express themselves, and do things with a high-handed manner. They are authoritative and never go back on what they have said.
+                With great confidence and indomitable fortitude, they can be competent leaders. They will not make preparations for anything, but they can handle anything that comes along.
+            </TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                Tigers enjoy good health. They are active so they like to do various sports. Small illnesses, such as colds, coughs, and fever, are rarely experienced by Tigers.
+                However, they should avoid excessive strenuous exercise, because some dangerous activities may lead to physical harm. When involved in outdoor excise, they should pay particular attention to warm-up exercise. Aerobic exercises, such as jogging, are suitable for keeping fit.
+                Tigers are energetic and have great enthusiasm at work. When they feel exhausted after extended work, they need some relaxation to refresh themselves.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/Animals/Zodiac.png"/>
+                </StackPanel>
 
-    </Grid>
+            
+        </StackPanel>
+    </StackPanel>
+
+
 </Page>

@@ -49,52 +49,52 @@ namespace G00341457_UWPApp
 
         private void Dog_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Dog));
         }
 
         private void Ox_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Rat));
         }
 
         private void tiger_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(tiger));
         }
 
         private void Rabbit_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Rabbit));
         }
 
         private void Dragon_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Dragon));
         }
 
         private void Snake_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Snake));
         }
 
         private void horse_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(horse));
         }
 
         private void Goat_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Goat));
         }
 
         private void Rooster_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Rooster));
         }
 
         private void Pig_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Pig));
         }
     }
 }
