@@ -28,7 +28,7 @@ The most disadvantageous trait in Oxes is poor communication skills. They are no
 With a keen eye for details and an admirable work ethic, they are competent in such careers as agriculture, manufacturing, pharmacy, mechanics, engineering, draftsmanship, artistry, politics, real estate, interior design, painting, carpentry, or quarry work.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/Ox.jpg"/>
             </StackPanel>
             <StackPanel Orientation="vertical"></StackPanel>
 

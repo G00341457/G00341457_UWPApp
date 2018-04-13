@@ -33,7 +33,7 @@ A balanced diet and regular exercise benefit Rats. With enough rest Rats can kee
 In dry seasons, Rats should pay attention to prevention of respiratory and skin problems.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/rat.jpg"/>
             </StackPanel>
             <StackPanel Orientation="Vertical"/>
 

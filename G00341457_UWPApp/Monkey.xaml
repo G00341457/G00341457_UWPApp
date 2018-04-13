@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="G00341457_UWPApp.Monkey"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:G00341457_UWPApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Monkey" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">               
+Monkeys' financial prospects are not bad in 2018.
+
+If you are a Monkey, you will probably get a salary increase because of your qualifications or a promotion. What's more, you will also be likely to receive gifts from seniors.
+
+For entrepreneurs, you should invest in real estate or mineral developments. Consider investing with family or friends, as this will bring you greater rewards. If you invest alone, you are likely to lose your opportunities by overlooking them or not being proactive.
+            </TextBlock>
+            <TextBlock Width="300" TextWrapping="Wrap" Margin="0,0,20,0">
+               People born in a year of the Monkey have magnetic personalities and are witty and intelligent. Personality traits like mischievousness, curiosity, and cleverness, make them very naughty.
+
+Monkeys are masters of practical jokes, because they like playing most of the time. Though they don't have bad intentions, their pranks sometimes hurt the feelings of others.
+
+Monkeys are fast learners and crafty opportunists. They have many interests and need partners who are capable of stimulating them. While some like the eccentric nature of Monkeys, others don't trust their sly, restless, and inquisitive nature.
+
+Although they are clever and creative, Monkeys can't always exhibit their talents properly. They like to accept challenges and prefer urban life to rural.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/chimpanzee.jpg" Height="392" Margin="0,0,135,0"/>
+            </StackPanel>
+
+        </StackPanel>
+
+        <Button x:Name="button" Content="Return home" HorizontalAlignment="stretch" VerticalAlignment="Stretch" Click="button_Click"/>
+    </StackPanel>
+</Page>

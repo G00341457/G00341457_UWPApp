@@ -25,7 +25,7 @@ For entrepreneurs, it's not a good year for you to develop your business. You wi
 However, if you are working on thermal power or mineral industry projects, or apartments for officials, you will do well. Don't expect good returns from real estate projects.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/peppa-pig.jpg" Height="425"/>
             </StackPanel>
             <StackPanel Orientation="Vertical"/>
 

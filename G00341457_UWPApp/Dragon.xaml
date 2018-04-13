@@ -23,7 +23,7 @@
                However, the dragon is sometimes regarded as aggressive, and angry dragons are not open to criticism. They don't consider themselves irritating and arrogant. Instead of following tradition, they strive for a smooth future.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/dragon.png"/>
             </StackPanel>
 <!-- Add button-->
             <StackPanel Orientation="Vertical"></StackPanel>

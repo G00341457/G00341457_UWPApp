@@ -8,8 +8,8 @@
     mc:Ignorable="d">
 <!--finished -->
 
-    <StackPanel Margin="10,20,0,0">
-        <Button x:Name="Home"  Content="Return Home" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
+    <StackPanel Margin="10,20,0,0" >
+        
         <TextBlock Text="Dog" FontSize="48" Margin="0,0,0,20" />
         <StackPanel Orientation="Horizontal">
             <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
@@ -29,7 +29,7 @@
                 When thrown into doubt, Dogs think the world is evil and complicated. Then they criticize sharply when giving comments on something, and infer all things are according to their pessimistic point of view.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/Dog.jpg" Height="339" Margin="0,0,147,0"/>
             </StackPanel>
             <StackPanel Orientation="Vertical">
             </StackPanel>

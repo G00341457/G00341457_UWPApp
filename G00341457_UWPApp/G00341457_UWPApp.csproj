@@ -92,6 +92,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Calender.xaml.cs">
+      <DependentUpon>Calender.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Dog.xaml.cs">
       <DependentUpon>Dog.xaml</DependentUpon>
     </Compile>
@@ -107,6 +110,9 @@
     <Compile Include="LocationManager.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Monkey.xaml.cs">
+      <DependentUpon>Monkey.xaml</DependentUpon>
     </Compile>
     <Compile Include="OpenWeatherMapProxy.cs" />
     <Compile Include="Ox.xaml.cs">
@@ -141,6 +147,7 @@
   <ItemGroup>
     <Content Include="Assets\Animals\Zodiac.png" />
     <Content Include="Assets\chimpanzee.jpg" />
+    <Content Include="Assets\chinesezodiacwheelyears.png" />
     <Content Include="Assets\Dog.jpg" />
     <Content Include="Assets\dragon.png" />
     <Content Include="Assets\hare.jpg" />
@@ -167,6 +174,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Calender.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Dog.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -186,6 +197,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Monkey.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Ox.xaml">
       <SubType>Designer</SubType>

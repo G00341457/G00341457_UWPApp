@@ -99,8 +99,12 @@ namespace G00341457_UWPApp
 
         private void Monkey_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Frame.Navigate(typeof(Monkey));
         }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Calender));
+        }
     }
 }

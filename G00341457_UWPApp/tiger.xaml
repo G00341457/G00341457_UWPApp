@@ -21,7 +21,7 @@
                 Tigers are energetic and have great enthusiasm at work. When they feel exhausted after extended work, they need some relaxation to refresh themselves.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/tiger.jpg"/>
                 </StackPanel>
             <StackPanel Orientation="Vertical"/>
 

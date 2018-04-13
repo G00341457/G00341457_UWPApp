@@ -24,10 +24,15 @@
         <Button x:Name="Rooster" Content="Rooster" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Rooster_Click"/>
         <Button x:Name="Pig" Content="Pig" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Pig_Click"/>
         
+
+        <TextBlock Text="Or if you are unsure please follow through to our Wheel"/>
+        <Button Content="Wheel" HorizontalAlignment="Left" VerticalAlignment="Stretch" Click="Button_Click_1"/>
         <Image Name="ResultImage" Width="200" Height="200"/>   
         <Button Content="getWeather" Click="Button_Click" VerticalAlignment="Stretch" />
         <TextBlock Name="ResultTextBlock"/>
+        <StackPanel>
+</StackPanel>
         
-        
+
     </StackPanel>
 </Page>

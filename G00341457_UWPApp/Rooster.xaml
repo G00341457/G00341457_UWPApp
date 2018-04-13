@@ -25,7 +25,7 @@ Their behavior of continually seeking the unwavering attention of others annoys 
 Good career choices for Roosters are newsreader, sales person, restaurant owner, hairdresser, public relations officer, farmer, athlete, teacher, waiter, journalist, travel writer, dentist, surgeon, soldier, fireman, security guard, and police officer.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/Rooster.png" Height="420" Margin="0,0,361,0"/>
             </StackPanel>
             <StackPanel Orientation="Vertical"/>
 

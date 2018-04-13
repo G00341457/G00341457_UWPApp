@@ -33,11 +33,15 @@ Snakes are very creative and extremely diligent. Though Snakes work very hard, t
 Good career choices for Snakes include: scientist, analyst, investigator, painter, potter, jeweler, astrologer, magician, dietician, and sociologist.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/snake.jpg" Height="304" UseLayoutRounding="False" d:LayoutRounding="Auto" Margin="0,0,0.222,0">
+                    <Image.RenderTransform>
+                        <CompositeTransform Rotation="-0.151" TranslateX="-0.47" TranslateY="-0.952"/>
+                    </Image.RenderTransform>
+                </Image>
             </StackPanel>
 
         </StackPanel>
         <Button x:Name="button" Content="Return home" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
     </StackPanel>
-        
+
 </Page>

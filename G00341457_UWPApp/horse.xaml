@@ -26,7 +26,7 @@ The Horse can make it in any career that demands neither solitude nor meditation
 Good career choices for Horses include: publicist, sales representative, journalist, language instructor, translator, bartender, performer, tour operator, librarian or pilot.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/horse.png" Height="292" Margin="0,0,618,0"/>
             </StackPanel>
             <StackPanel Orientation="vertical"></StackPanel>
 

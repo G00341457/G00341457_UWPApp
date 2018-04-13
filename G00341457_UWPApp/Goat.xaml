@@ -21,7 +21,7 @@
                 If goat people are in mental and emotional good spirits, this should have a positive effect on their physical health. Eating fresh and organic produce, and eliminating red meat from their diet when possible, is an effective way to keep healthy. They should get out among nature and commune with the great outdoors. Fresh air, trees, and sunshine will all do wonders for their health. Goat people should have a regular schedule for meals and keep their sleep and waking times consistent.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/Ram.jpg" Height="476"/>
             </StackPanel>
             <StackPanel Orientation="Vertical"></StackPanel>
             <!-- Add button-->

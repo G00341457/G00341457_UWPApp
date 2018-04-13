@@ -27,7 +27,7 @@ With a pair of dexterous hands, Rabbits have a gift for calligraphy and painting
 The best careers for Rabbits are cultivation, breeding, education, religion, health care, medicine, culture, police/judiciary work, and politics.
             </TextBlock>
             <StackPanel Orientation="Horizontal">
-                <Image Source="Assets/Animals/Zodiac.png"/>
+                <Image Source="Assets/hare.jpg" Height="517" Margin="0,0,98,0"/>
             </StackPanel>
             
         </StackPanel>
