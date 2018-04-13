@@ -30,6 +30,7 @@ However, if you are working on thermal power or mineral industry projects, or ap
             <StackPanel Orientation="Vertical"/>
 
         </StackPanel>
+        <Button x:Name="button1"  Content="Hear Me roar!" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Button_Click_1"/>
         <Button x:Name="button" Content="Return home" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
 
     </StackPanel>

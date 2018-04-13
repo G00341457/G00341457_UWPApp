@@ -33,7 +33,7 @@ namespace G00341457_UWPApp
 
             var position = await UWPWeather.LocationManager.GetPosition();
 
-           
+
 
             RootObject myWeather = await OpenWeatherMapProxy.GetWeather(position.Coordinate.Latitude, position.Coordinate.Longitude);
             string icon = String.Format("http://openweathermap.org/img/w/{0}.png", myWeather.weather[0].icon);
@@ -96,5 +96,11 @@ namespace G00341457_UWPApp
         {
             this.Frame.Navigate(typeof(Pig));
         }
+
+        private void Monkey_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
     }
 }

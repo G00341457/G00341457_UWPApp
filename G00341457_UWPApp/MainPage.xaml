@@ -19,9 +19,9 @@
         <Button x:Name="Snake" Content="Snake" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Snake_Click"/>
         <Button x:Name="horse" Content="horse" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="horse_Click"/>
         <Button x:Name="Goat" Content="Goat" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Goat_Click"/>
-        <Button x:Name="Monkey" Content="Monkey" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Rooster_Click"/>
-        <Button x:Name="Rooster" Content="Rooster" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Pig_Click"/>
-        <Button x:Name="Pig" Content="Pig" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Button x:Name="Monkey" Content="Monkey" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Monkey_Click"/>
+        <Button x:Name="Rooster" Content="Rooster" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Rooster_Click"/>
+        <Button x:Name="Pig" Content="Pig" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Pig_Click"/>
         
         <Image Name="ResultImage" Width="200" Height="200"/>
         <Button Content="getWeather" Click="Button_Click" VerticalAlignment="Stretch" />
