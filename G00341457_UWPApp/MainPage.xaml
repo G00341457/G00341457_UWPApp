@@ -8,8 +8,9 @@
     mc:Ignorable="d">
 
 
-    <StackPanel Background="Aqua">
+    <StackPanel Background="Azure">
         <TextBlock Text="Orient Calender" VerticalAlignment="Top" HorizontalAlignment="center" FontSize="50" FontWeight="SemiBold"/>
+        <TextBlock Text="Step Forward to see what the orient Calendar has to say about your life" VerticalAlignment="Top" HorizontalAlignment="center" FontSize="20" FontWeight="SemiBold"/>
         <Button x:Name="Rat" Content="Rat" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="RatButton_Click"/>
         <Button x:Name="Dog" Content="Dog" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Dog_Click"/>
         <Button x:Name="Ox" Content="Ox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Ox_Click"/>
@@ -23,9 +24,10 @@
         <Button x:Name="Rooster" Content="Rooster" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Rooster_Click"/>
         <Button x:Name="Pig" Content="Pig" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Pig_Click"/>
         
-        <Image Name="ResultImage" Width="200" Height="200"/>
+        <Image Name="ResultImage" Width="200" Height="200"/>   
         <Button Content="getWeather" Click="Button_Click" VerticalAlignment="Stretch" />
         <TextBlock Name="ResultTextBlock"/>
+        
         
     </StackPanel>
 </Page>

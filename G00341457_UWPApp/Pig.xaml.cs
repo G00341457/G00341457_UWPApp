@@ -46,7 +46,7 @@ namespace G00341457_UWPApp
             Windows.Storage.StorageFolder folder = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFolderAsync(@"Assets");
             Windows.Storage.StorageFile file = await folder.GetFileAsync("pig.mp3");
 
-            player.AutoPlay = false;
+            player.AutoPlay = true;
             player.Source = MediaSource.CreateFromStorageFile(file);
             if (playing)
             {

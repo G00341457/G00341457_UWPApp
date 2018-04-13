@@ -140,7 +140,19 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Animals\Zodiac.png" />
+    <Content Include="Assets\chimpanzee.jpg" />
+    <Content Include="Assets\Dog.jpg" />
+    <Content Include="Assets\dragon.png" />
+    <Content Include="Assets\hare.jpg" />
+    <Content Include="Assets\horse.png" />
+    <Content Include="Assets\ox.jpg" />
+    <Content Include="Assets\peppa-pig.jpg" />
     <Content Include="Assets\Pig.mp3" />
+    <Content Include="Assets\Ram.jpg" />
+    <Content Include="Assets\rat.jpg" />
+    <Content Include="Assets\Rooster.png" />
+    <Content Include="Assets\snake.jpg" />
+    <Content Include="Assets\tiger.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
