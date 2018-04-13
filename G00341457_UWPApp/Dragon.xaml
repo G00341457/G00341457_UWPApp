@@ -6,8 +6,29 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+ 
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Dragon" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+                The Dragon is the fifth of the 12 Chinese zodiac animals. Each year has an animal sign according to a 12-year cycle. Years of the Dragon include 1928, 1940, 1952, 1964, 1976, 1988, 2000, 2012, and 2024.<LineBreak/>
+                Lucky colors: gold, silver, grayish white <LineBreak/>
+                Lucky numbers: 1, 6, 7 <LineBreak/>
+                Lucky flowers: bleeding-heart glory bower, dragon flowers <LineBreak/>
+              
+            </TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                Among Chinese zodiac animals, the Dragon is the sole imaginary animal. The Dragon is the most vital and powerful beast in the Chinese zodiac, although with an infamous reputation for being a hothead and possessing a sharp tongue. In ancient times, people thought that Dragons could control everything in the world with their character traits of dominance and ambition.<LineBreak/>
+               Gifted with innate courage, tenacity and intelligence, dragons are enthusiastic and confident. They are not afraid of challenges, and willing to take risks.<LineBreak/>
+               However, the dragon is sometimes regarded as aggressive, and angry dragons are not open to criticism. They don't consider themselves irritating and arrogant. Instead of following tradition, they strive for a smooth future.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/Animals/Zodiac.png"/>
+            </StackPanel>
+<!-- Add button-->
+            <StackPanel Orientation="Vertical"></StackPanel>
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
-    </Grid>
+        </StackPanel>
+        <Button x:Name="button" Content="Return home" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
+    </StackPanel>
 </Page>

@@ -7,7 +7,36 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <!-- Not changed -->
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Snake" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+                n Chinese culture, the Snake is the most enigmatic animal among the twelve zodiac animals. People born in a year of the Snake are supposed to be the most intuitive.
 
-    </Grid>
+Snakes tend to act according to their own judgments, even while remaining the most private and reticent. They are determined to accomplish their goals and hate to fail.
+
+Snakes represent the symbol of wisdom. They are intelligent and wise. They are good at communication but say little. Snakes are usually regarded as great thinkers.
+
+Snakes are materialistic and love keeping up with the Joneses. They love to posses the best of everything, but they have no patience for shopping.
+
+Snake people prefer to work alone, therefore they are easily stressed. If they seem unusually stressed, it is best to allow them their own space and time to return to normal.
+            </TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                Snakes prefer living a peaceful life, and they do not like a noisy environment. Snakes become easily stressed when their lives aren't calm or in order. Therefore, a manageable workload would be good for them rather than a challenging schedule.
+
+Snakes need to spend lots of time to relax themselves. It's necessary to take vacations at the proper time. People should pay attention to the health of Snake people, especially senior members in the family.
+
+The Best Careers for Snakes
+Snakes are very creative and extremely diligent. Though Snakes work very hard, they have a tendency to be job-hoppers, as they easily become bored. Snakes are great thinkers. Complex problems stimulate them. And of course they're excellent problem-solvers and thrive under tight deadlines.
+
+Good career choices for Snakes include: scientist, analyst, investigator, painter, potter, jeweler, astrologer, magician, dietician, and sociologist.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/Animals/Zodiac.png"/>
+            </StackPanel>
+
+
+        </StackPanel>
+    </StackPanel>
 </Page>

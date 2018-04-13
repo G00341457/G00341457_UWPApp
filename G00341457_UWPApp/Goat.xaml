@@ -7,7 +7,25 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Goat" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+                People born in a year of the Goat are generally believed to be gentle mild-mannered, shy, stable, sympathetic, amicable, and brimming with a strong sense of kindheartedness and justice.<LineBreak/>
+                They have very delicate thoughts, strong creativity, and perseverance, and acquire professional skills well. Although they look gentle on the surface, they are tough on the inside, always insisting on their own opinions in their minds. They have strong inner resilience and excellent defensive instincts.<LineBreak/>
+                Though they prefer to be in groups, they do not want to be the center of attention. They are reserved and quiet, most likely because they like spending much time in their thoughts. Goats like to spend money on fashionable things that give them a first class appearance. Although goats enjoy spending money on the finer things in life, they are not snobbish.
+            </TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                People born in a year of the Goat are very serene and calm. Therefore they tend to have fewer health problems.<LineBreak/>
+                If goat people are in mental and emotional good spirits, this should have a positive effect on their physical health. Eating fresh and organic produce, and eliminating red meat from their diet when possible, is an effective way to keep healthy. They should get out among nature and commune with the great outdoors. Fresh air, trees, and sunshine will all do wonders for their health. Goat people should have a regular schedule for meals and keep their sleep and waking times consistent.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/Animals/Zodiac.png"/>
+            </StackPanel>
 
-    </Grid>
+            <!-- Add button-->
+            
+        </StackPanel>
+    </StackPanel>
 </Page>

@@ -6,8 +6,35 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+<!--finished -->
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox Text="You are a Dog"/>
-    </Grid>
+    <StackPanel Margin="10,20,0,0">
+        <Button x:Name="Home"  Content="Return Home" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
+        <TextBlock Text="Dog" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+                2018 is a Year of the Dog. In Chinese astrology, each year is related to a Chinese zodiac animal according to the 12-year cycle. 2018 is an Earth Dog Year.
+                Years of the Dog include 1934, 1946, 1958, 1970, 1982, 1994, 2006, 2018, and 2030... The Dog occupies the eleventh position in the Chinese zodiac, after the Rooster, and before the Pig.
+                If you're born in a Dog year, you're a Dog, and the following are deemed lucky for you:<LineBreak/>
+                Lucky numbers: 3, 4, 9 <LineBreak/>
+                Lucky colors: red, green, and purple <LineBreak/>
+                Lucky flowers: rose, cymbidium orchids
+            </TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                The Dog's Personality: Loyal, Honest...<LineBreak/>
+                Dogs are loyal and honest, amiable and kind, cautious and prudent. Due to having a strong sense of loyalty and sincerity, Dogs will do everything for the person who they think is most important.
+                As Dogs are not good at communication, it is difficult for them to convey their thoughts to others. Therefore, Dogs tend to leave others with the impression that they have a stubborn personality.
+                Born with a good nature, Dogs do not tend to be criminals or seek dishonest gains. They just need a quiet life and a good family and, therefore, forget the ugliness and evil on Earth.
+                Dogs are always ready to help others and do not care about their own interests, but if they find themselves betrayed by cunning people they will feel shocked and hurt.
+                When thrown into doubt, Dogs think the world is evil and complicated. Then they criticize sharply when giving comments on something, and infer all things are according to their pessimistic point of view.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/Animals/Zodiac.png"/>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+            </StackPanel>
+        </StackPanel>
+        <Button x:Name="Button" Content="Return Home" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
+
+    </StackPanel>
 </Page>

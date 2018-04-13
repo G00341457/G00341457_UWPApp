@@ -7,7 +7,29 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <!-- Not changed -->
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Horse" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+                People born in a year of the Horse are extremely animated, active and energetic. Horses love to be in a crowd, and they can usually be seen on such occasions as concerts, theater performances, meetings, sporting events, and parties.
 
-    </Grid>
+With a deft sense of humor, Horses are masters of repartee. They love to take center stage and delight audiences everywhere.
+
+Sometimes, the Horse is a little self-centered, but it doesn't mean that s/he can not be interested in others' problems. Horses are really more cunning than intelligent, and that is probably why most Horse people lack real confidence.
+            </TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                Jobs involving communicating with others attract Horses most. The Horse sign stands for leadership, management, and decision-making. Horses dislike taking orders.
+
+The Horse can make it in any career that demands neither solitude nor meditation, for he is an extrovert and he needs to be surrounded by people who approve of him and flatter him.
+
+Good career choices for Horses include: publicist, sales representative, journalist, language instructor, translator, bartender, performer, tour operator, librarian or pilot.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/Animals/Zodiac.png"/>
+            </StackPanel>
+
+
+        </StackPanel>
+    </StackPanel>
 </Page>

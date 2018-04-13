@@ -6,8 +6,29 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <!-- Not changed -->
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Rooster" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+               Roosters are always active, amusing, and popular within a crowd. Roosters are talkative, outspoken, frank, open, honest, and loyal individuals. They like to be the center of attention and always appear attractive and beautiful.
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+Roosters are happiest when they are surrounded by others, whether at a party or just a social gathering. They enjoy the spotlight and will exhibit their charm on any occasion.
 
-    </Grid>
+Roosters expect others to listen to them while they speak, and can become agitated if they don't. Vain and boastful, Roosters like to brag about themselves and their accomplishments.
+
+Their behavior of continually seeking the unwavering attention of others annoys people around them at times.
+            </TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                Roosters are more motivated than other animals in the Chinese zodiac, making their careers a priority in their lives. Roosters are hard working, multi-talented, and can deal with a variety of jobs.
+
+Good career choices for Roosters are newsreader, sales person, restaurant owner, hairdresser, public relations officer, farmer, athlete, teacher, waiter, journalist, travel writer, dentist, surgeon, soldier, fireman, security guard, and police officer.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/Animals/Zodiac.png"/>
+            </StackPanel>
+
+
+        </StackPanel>
+    </StackPanel>
 </Page>

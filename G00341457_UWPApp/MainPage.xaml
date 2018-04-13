@@ -9,7 +9,7 @@
 
 
     <StackPanel Background="Aqua">
-        <TextBlock Text="Orient Calender" VerticalAlignment="Top" HorizontalAlignment="center" FontSize="30Px" FontWeight="SemiBold"/>
+        <TextBlock Text="Orient Calender" VerticalAlignment="Top" HorizontalAlignment="center" FontSize="50" FontWeight="SemiBold"/>
         <Button x:Name="Rat" Content="Rat" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="RatButton_Click"/>
         <Button x:Name="Dog" Content="Dog" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Dog_Click"/>
         <Button x:Name="Ox" Content="Ox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Ox_Click"/>

@@ -7,7 +7,31 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <!-- Not changed -->
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Ox" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+                Oxes are known for diligence, dependability, strength and determination. Having an honest nature, Oxes have a strong patriotism for their country, have ideals and ambitions for life, and attach importance to family and work. These things reflect the traditional characteristics of conservatives. Women belonging to the Ox zodiac sign are traditional, faithful wives, who attach great importance to their children's education.
 
-    </Grid>
+Find Your Chinese Zodiac Sign
+Choose your date of birth and find out about your Chinese zodiac sign.
+
+Search
+Having a desire to advance and great patience, Oxes can achieve their goals by consistent efforts. They are not influenced by others or the environment, but persist to do things in accordance with their ideas and capabilities. Before taking action, they will have a definite plan with detailed steps and add their strong faith and physical strength. So people of the Ox zodiac sign enjoy great success as a result.
+
+The most disadvantageous trait in Oxes is poor communication skills. They are not good at communicating with others, and even think it not worthwhile exchanging ideas with others. They are stubborn and stick to their own ways.
+            </TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                As the symbol of hard work, Ox people always work hard at everything and stick to finishing it. Possessing a serious and responsible attitude toward work, they can come up with different approaches to their task.
+
+With a keen eye for details and an admirable work ethic, they are competent in such careers as agriculture, manufacturing, pharmacy, mechanics, engineering, draftsmanship, artistry, politics, real estate, interior design, painting, carpentry, or quarry work.
+            </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/Animals/Zodiac.png"/>
+            </StackPanel>
+
+
+        </StackPanel>
+    </StackPanel>
 </Page>

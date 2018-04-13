@@ -6,8 +6,31 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
+    <!-- Not changed -->
+    <StackPanel Margin="10,20,0,0">
+        <TextBlock Text="Rabbit" FontSize="48" Margin="0,0,0,20" />
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">               
+The Rabbit's Personality: Quiet, Elegant...
+Rabbits tend to be gentle, quiet, elegant, and alert; quick, skillful, kind, and patient; and particularly responsible. However, they might be superficial, stubborn, melancholy, and overly-discreet. Generally speaking, people who belong to the Rabbit zodiac sign have likable characters.<LineBreak/>
+Gentlemen who belong to the rabbit zodiac sign always treat people politely, with a gentle smile that makes people feel that they are credible and sincere. When meeting trouble, Rabbits can handle it in an orderly way; when encountering tough difficulties they are never discouraged, but are persistent to seek solutions. So they eventually achieve enviable success.
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+Ladies belonging to the rabbit zodiac sign, apart from a pretty and demure appearance, have a pure heart.
 
-    </Grid>
+Rabbits are faithful to those around them, but reluctant to reveal their minds to others, and have a tendency to escape reality. They are too cautious and conservative, which means they miss good opportunities.
+            </TextBlock>
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+                Good-hearted Rabbits are loved by others. Intellectual, scholarly and learned, Rabbits can enjoy a good career as well as wealth. But Rabbits should take care not to give up half way when striving for something.
+
+With a pair of dexterous hands, Rabbits have a gift for calligraphy and painting, as well as tailoring and cooking. Owning a patient temperament, they are able to manage everything to people's wishes.
+
+The best careers for Rabbits are cultivation, breeding, education, religion, health care, medicine, culture, police/judiciary work, and politics.
+             </TextBlock>
+            <StackPanel Orientation="Horizontal">
+                <Image Source="Assets/Animals/Zodiac.png"/>
+            </StackPanel>
+
+
+        </StackPanel>
+    </StackPanel>
 </Page>
