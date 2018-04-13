@@ -11,7 +11,7 @@
     <StackPanel Margin="10,20,0,0">
         <TextBlock Text="Rat" FontSize="48" Margin="0,0,0,20" />
         <StackPanel Orientation="Horizontal">
-            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
                 Rats are quick-witted, resourceful, versatile, kind, smart, and lovely
 With strong intuition and quick response, they always easily adapt themselves to a new environment. With rich imaginations and sharp observation, Rats can take advantage of various opportunities well. Rats have strong curiosity, so they tend to try their hands at anything, and they can deal with it skillfully.
 
@@ -25,7 +25,7 @@ A lack of courage, as well as good command skills, Rats are not capable as leade
 
 Rats are kind, but sometimes impolite to others. People of the Rat zodiac sign usually sleep late, for mice are nocturnal animals.
             </TextBlock>
-            <TextBlock Width="500" TextWrapping="Wrap" Margin="0,0,20,0">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
                 General speaking, Rats are healthy. They are full of energy and active, which helps them keep fit and avoid illness.
 
 A balanced diet and regular exercise benefit Rats. With enough rest Rats can keep high spirits at work, which can improve work efficiency. When in stressful and tense conditions, Rats are suggested to take a tour to free stress and tension.
@@ -35,8 +35,10 @@ In dry seasons, Rats should pay attention to prevention of respiratory and skin 
             <StackPanel Orientation="Horizontal">
                 <Image Source="Assets/Animals/Zodiac.png"/>
             </StackPanel>
-
+            <StackPanel Orientation="Vertical"/>
 
         </StackPanel>
+        <Button x:Name="button" Content="Return Home" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
+
     </StackPanel>
 </Page>

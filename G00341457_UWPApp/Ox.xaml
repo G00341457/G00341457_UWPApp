@@ -11,7 +11,7 @@
     <StackPanel Margin="10,20,0,0">
         <TextBlock Text="Ox" FontSize="48" Margin="0,0,0,20" />
         <StackPanel Orientation="Horizontal">
-            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0">
+            <TextBlock Width="250" TextWrapping="Wrap" Margin="0,0,20,0" SelectionChanged="TextBlock_SelectionChanged">
                 Oxes are known for diligence, dependability, strength and determination. Having an honest nature, Oxes have a strong patriotism for their country, have ideals and ambitions for life, and attach importance to family and work. These things reflect the traditional characteristics of conservatives. Women belonging to the Ox zodiac sign are traditional, faithful wives, who attach great importance to their children's education.
 
 Find Your Chinese Zodiac Sign
@@ -30,8 +30,9 @@ With a keen eye for details and an admirable work ethic, they are competent in s
             <StackPanel Orientation="Horizontal">
                 <Image Source="Assets/Animals/Zodiac.png"/>
             </StackPanel>
-
+            <StackPanel Orientation="vertical"></StackPanel>
 
         </StackPanel>
+        <Button x:Name="button" Content="Return home" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
     </StackPanel>
 </Page>

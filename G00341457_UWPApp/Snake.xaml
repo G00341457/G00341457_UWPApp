@@ -35,7 +35,8 @@ Good career choices for Snakes include: scientist, analyst, investigator, painte
             <StackPanel Orientation="Horizontal">
                 <Image Source="Assets/Animals/Zodiac.png"/>
             </StackPanel>
-
+            <StackPanel Orientation="Vertical"/>
+            <Button x:Name="button" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
 
         </StackPanel>
     </StackPanel>

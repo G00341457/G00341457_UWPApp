@@ -23,9 +23,10 @@
             <StackPanel Orientation="Horizontal">
                 <Image Source="Assets/Animals/Zodiac.png"/>
                 </StackPanel>
+            <StackPanel Orientation="Vertical"/>
 
-            
         </StackPanel>
+        <Button x:Name="button" Content="Return Home" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
     </StackPanel>
 
 

@@ -27,8 +27,10 @@ Good career choices for Roosters are newsreader, sales person, restaurant owner,
             <StackPanel Orientation="Horizontal">
                 <Image Source="Assets/Animals/Zodiac.png"/>
             </StackPanel>
-
+            <StackPanel Orientation="Vertical"/>
 
         </StackPanel>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="button_Click"/>
+
     </StackPanel>
 </Page>
