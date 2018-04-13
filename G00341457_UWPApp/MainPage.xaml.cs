@@ -86,5 +86,15 @@ namespace G00341457_UWPApp
         {
 
         }
+
+        private void Rooster_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Pig_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
