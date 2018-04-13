@@ -41,5 +41,50 @@ namespace G00341457_UWPApp
             ResultTextBlock.Text = myWeather.name + " - " + ((int)myWeather.main.temp).ToString() + " - " + myWeather.weather[0].description;
 
         }
+
+        private void RatButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Rat));
+        }
+
+        private void Dog_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Ox_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void tiger_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Rabbit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Dragon_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Snake_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void horse_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Goat_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -7,9 +7,25 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
+
     <StackPanel Background="Aqua">
-        <Button Content="getWeather" Click="Button_Click"/>
-        <TextBlock Name="ResultTextBlock"/>
+        <TextBlock Text="Orient Calender" VerticalAlignment="Top" HorizontalAlignment="center" FontSize="30Px" FontWeight="SemiBold"/>
+        <Button x:Name="Rat" Content="Rat" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="RatButton_Click"/>
+        <Button x:Name="Dog" Content="Dog" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Dog_Click"/>
+        <Button x:Name="Ox" Content="Ox" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Ox_Click"/>
+        <Button x:Name="tiger" Content="tiger" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="tiger_Click"/>
+        <Button x:Name="Rabbit" Content="Rabbit" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Rabbit_Click"/>
+        <Button x:Name="Dragon" Content="Dragon" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Dragon_Click"/>
+        <Button x:Name="Snake" Content="Snake" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Snake_Click"/>
+        <Button x:Name="horse" Content="horse" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="horse_Click"/>
+        <Button x:Name="Goat" Content="Goat" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5" Click="Goat_Click"/>
+        <Button x:Name="Monkey" Content="Monkey" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5"/>
+        <Button x:Name="Rooster" Content="Rooster" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="0,0,0,5"/>
+        <Button x:Name="Pig" Content="Pig" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        
         <Image Name="ResultImage" Width="200" Height="200"/>
+        <Button Content="getWeather" Click="Button_Click" VerticalAlignment="Stretch" />
+        <TextBlock Name="ResultTextBlock"/>
+        
     </StackPanel>
 </Page>
